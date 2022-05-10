@@ -45,6 +45,7 @@ button:hover{
 .result{
     font-size: 18px;
     padding: 25px;
+    margin-top: -18px;
 }
 @keyframes big{
     0%{
@@ -61,4 +62,7 @@ button:hover{
     100%{
         font-size: 18px;
     }
+}
+button:hover{
+    background-color: brown;
 }

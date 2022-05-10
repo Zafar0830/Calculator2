@@ -14,7 +14,7 @@ function calculate() {
     }
     if (buttonText==="DEL") {
         output.textContent=output.textContent.substr(0,output.textContent.length-1)
-        return
+        return;
     }
     if (buttonText==="=") {
         result.innerText=eval(output.innerText)
